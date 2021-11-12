@@ -24,11 +24,10 @@ public class Estoque {
 		produtos.add(new Produto(20, "Mochila"));
 		produtos.add(new Produto(3, "Lapis"));
 		Iterator<Produto> itr = produtos.iterator();
-		System.out.println("=========Lista de Produtos========");
+		System.out.println("=========Lista de Produtos Disponíveis no estoque========");
 	    while (itr.hasNext()) {
-	      System.out.println(itr.next().getNome());
+	    	System.out.println(itr.next().getNome());
 	    }
-	    System.out.println("==================================");
 	}
 	
 	
